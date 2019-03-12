@@ -1,0 +1,18 @@
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  background: #cec8c0;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+
+a{
+  color:grey
+}
+
+.top{
+  background: black
+}

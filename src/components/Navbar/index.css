@@ -1,0 +1,36 @@
+
+.navbar {
+background-color: rgba(250, 172, 168, 0) !important;
+  margin-top: -20px;
+  background: darkgrey !important;
+  display: flex
+}
+
+.collapse, .navbar-collapse{
+   width: 100%;
+}
+
+/* this will style the links */
+.navbar a {
+   color: black !important;
+   font-weight: 600;
+  
+}
+
+/* this will style the header */
+.navbar h1 {
+   font-size: 1.40rem;
+   color: white;
+   font-weight: 280;
+}
+nav .dropdown-menu{
+   background-color:#a48ef5;
+
+}
+.dropdown-item{
+   color: rgb(37, 36, 36)
+}
+
+.logo{
+   width:100px
+}
