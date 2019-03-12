@@ -1,26 +1,19 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
-import WelcomePage from "./components/Pages/WelcomePage";
-import AboutPage from "./components/Pages/AboutPage";
-import FaithPage from "./components/Pages/FaithPage";
-import ProposalPage from "./components/Pages/ProposalPage";
-import PhotosPage from "./components/Pages/PhotosPage";
-import DetailsPage from "./components/Pages/DetailsPage";
-import AccommodationsPage from "./components/Pages/AccommodationsPage";
+import PageOne from "./components/Pages/PageOne";
+import PageTwo from "./components/Pages/PageTwo";
+
 
 import "./index.css";
 
 class App extends React.Component {
   state = {
-    page: "Welcome",
+    page: "Page One",
     pages: [
-      "About Us",
-      "Our Faith",
-      "The Proposal",
-      "Photos",
-      "Wedding Details",
-      "Accommodations"
+      "Page Two",
+      "Page Three",
+      "Page Four",
     ]
   };
 
@@ -35,20 +28,10 @@ class App extends React.Component {
         <Wrapper>
           <div className="container">
             <div className="row">
-              {this.state.page === "Welcome" ? (
-                <WelcomePage />
-              ) : this.state.page === "About Us" ? (
-                <AboutPage />
-              ) : this.state.page === "Our Faith" ? (
-                <FaithPage />
-              ) : this.state.page === "The Proposal" ? (
-                <ProposalPage />
-              ) : this.state.page === "Photos" ? (
-                <PhotosPage />
-              ) : this.state.page === "Wedding Details" ? (
-                <DetailsPage />
-              ) : this.state.page === "Accommodations" ? (
-                <AccommodationsPage />
+              {this.state.page === "Page One" ? (
+                <PageOne />
+              ) : this.state.page === "Page Two" ? (
+                <PageTwo />
               ) : null}
             </div>
           </div>
