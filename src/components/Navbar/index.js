@@ -5,15 +5,15 @@ function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <img
-        src="./images/logo.png"
-        className="img-fluid logo "
+        src="./images/hex.png"
+        className="img-fluid logo m-4"
         alt="heart shaped locket with couple inside"
       />
       <a
         className="navbar-brand px-2 mx-2"
-        onClick={() => props.setpage("Welcome")}
+        onClick={() => props.setpage("Page One")}
       >
-        <h1>Iris and Joe Wedding</h1>
+        <h1>Static React Template</h1>
       </a>
       <button
         className="navbar-toggler"

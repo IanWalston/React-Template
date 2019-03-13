@@ -26,7 +26,7 @@ class App extends React.Component {
       <div>
         <Navbar setpage={this.setpage} pages={this.state.pages} />
         <Wrapper>
-          <div className="container">
+          <div className="">
             <div className="row">
               {this.state.page === "Page One" ? (
                 <PageOne />
