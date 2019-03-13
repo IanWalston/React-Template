@@ -5,9 +5,9 @@ function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <img
-        src="./images/hex.png"
+        src="images/hex.png"
         className="img-fluid logo m-4"
-        alt="heart shaped locket with couple inside"
+        // alt="heart shaped locket with couple inside"
       />
       <a
         className="navbar-brand px-2 mx-2"
