@@ -41,17 +41,17 @@ html {
   background-size: cover;
 }
 .bgimg-1 {
-  background-image: url("../../../img_parallax.jpg");
+  background-image: url("../../../images/img_parallax.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("../../../img_parallax2.jpg");
+  background-image: url("../../../images/img_parallax2.jpg");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("../../../img_parallax3.jpg");
+  background-image: url("../../../images/img_parallax3.jpg");
   min-height: 400px;
 }
 
@@ -80,6 +80,9 @@ h3 {
   text-align: center;
 }
 
+.parralax {
+  /* margin-top: -300px; */
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {

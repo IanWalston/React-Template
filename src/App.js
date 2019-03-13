@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import PageOne from "./components/Pages/PageOne";
 import PageTwo from "./components/Pages/PageTwo";
 
-
 import "./index.css";
 
 class App extends React.Component {

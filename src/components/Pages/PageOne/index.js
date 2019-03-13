@@ -3,8 +3,14 @@ import "./index.css";
 
 function PageOne(props) {
   return (
-    <div class='parralax'>
+    <div class="parralax">
       <div class="bgimg-1">
+        <div class="div1">
+          <h2>Welcome to a Static React page template</h2>
+          <p>
+            Below is a demonstration of the parralax effect. 
+          </p>
+        </div>
         <div class="caption">
           <span class="border">SCROLL DOWN</span>{" "}
         </div>
@@ -31,12 +37,7 @@ function PageOne(props) {
       <div class="bgimg-2">
         <div class="caption">
           {" "}
-          <span
-            class="border span1"
-
-          >
-            LESS HEIGHT
-          </span>{" "}
+          <span class="border span1">LESS HEIGHT</span>{" "}
         </div>
       </div>
       <div class="rel">
@@ -49,8 +50,7 @@ function PageOne(props) {
       </div>
       <div class="bgimg-3">
         <div class="caption">
-          {" "}
-          <span class="border span1">SCROLL UP</span>{" "}
+          <span class="border span1">SCROLL UP</span>
         </div>
       </div>
       <div class="rel">
@@ -63,7 +63,6 @@ function PageOne(props) {
       </div>
       <div class="bgimg-1">
         <div class="caption">
-          {" "}
           <span class="border">COOL!</span>{" "}
         </div>
       </div>
